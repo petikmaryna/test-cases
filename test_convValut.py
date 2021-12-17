@@ -66,7 +66,8 @@ def test8PositiveComm3():
 
 def test8PositiveComm0():
     command = menu(0)
-    assert command == 0
+    assert command == 12
+    
 
 def test9NegativeComm1():
     with pytest.raises(Exception):
